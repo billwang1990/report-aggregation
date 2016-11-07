@@ -1,0 +1,19 @@
+{
+  "name": "th-generate-report-tool",
+  "version": "1.0.0",
+  "description": "Generates Cucumber HTML reports",
+  "main": "index.js",
+  "bin": {
+     "th-generate-report-tool": "index.js"
+  },
+  "devDependencies": {
+    "cucumber": "^2.4.0"
+  },
+  "dependencies": {
+    "jsonfile": "^2.3.1",
+    "lodash": "^4.13.1",
+    "node-fs": "^0.1.7",
+    "commander": "2.9.0",
+    "open": "0.0.5"
+  }
+}
